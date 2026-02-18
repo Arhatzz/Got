@@ -49,7 +49,7 @@ export default function Portfolio() {
         {/* Projects Section */}
         <section id="projects" className="mb-20">
           <h2 className="text-2xl font-bold mb-10 flex items-center gap-2">
-            <Code2 className="text-cyan-400" /> Featured Projects
+            <Code2 className="text-cyan-400" />   Featured Projects
           </h2>
           
           <div className="grid md:grid-cols-2 gap-6">
@@ -60,7 +60,7 @@ export default function Portfolio() {
                     [Project Thumbnail {project}]
                   </div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Project Title {project}</h3>
+                <h3 className="text-xl font-bold mb-2">Project {project}</h3>
                 <p className="text-slate-400 text-sm mb-4">
                   A high-performance web application built using Next.js 14, 
                   focusing on user experience and clean code architecture.
